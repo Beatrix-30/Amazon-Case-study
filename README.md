@@ -28,21 +28,43 @@ After downloading the raw data, several crucial steps were taken to clean and pr
 This formula automatically assigns each product to a predefined price bracket, allowing for a more granular analysis of pricing tiers. 
 
 After cleaning, a pivot table was inserted on a new worksheet to answer the questions 
-Business Questions (Task to do)
+
+## Business Questions (Task to do)
+
 1. What is the average discount percentage by product category?
 The highest average discount percentage by product category is Home Improvement with 58%. Other products category average discount percentage include: Car & Motorbike 42%; Computers & Accessories 53%; Electronics 49%; Health & Personal Care 53%; Home & Kitchen Appliances 40%; Musical Instruments 46%; Office Products 12%; Toys & Games 0%	
 
 2. How many products are listed under each category?
+   The total count of products per category include:
+   - Car & Motorbike:	1
+   - Computers & Accessories	375
+   - Electronics:	476
+   - Health & Personal Care:	1
+   - Home & Kitchen Appliances:	448
+   - Home Improvement:	2
+   - Musical Instruments: 2
+   - Office Products:	31
+   - Toys & Games:	1
 
-3. What is the total number of reviews per category?
+4. What is the total number of reviews per category?
+   Sum of rating count per product category:
+   - Car & Motorbike	1,118
+   - Computers & Accessories	6,335,177
+   - Electronics	13,938,131
+   - Health & Personal Care	3,663
+   - Home & Kitchen Appliances	2,991,069
+   - Home Improvement	8,566
+   - Musical Instruments	88,882
+   - Office Products	149,675
+   - Toys & Games	15,867
 
-4. Which products have the highest average ratings?
+5. Which products have the highest average ratings?
 Three products had the highest average ratings of 5 and they include: 
 - Amazon Basics Wireless Mouse | 2.4 GHz Connection, 1600 DPI | Type - C Adapter | Upto 12 Months of Battery Life | Ambidextrous Design | Suitable for PC/Mac/Laptop
 - REDTECH USB-C to Lightning Cable 3.3FT, [Apple MFi Certified] Lightning to Type C Fast Charging Cord Compatible with iPhone 14/13/13 pro/Max/12/11/X/XS/XR/8, Supports Power Delivery - White
 - Syncwire LTG to USB Cable for Fast Charging Compatible with Phone 5/ 5C/ 5S/ 6/ 6S/ 7/8/ X/XR/XS Max/ 11/12/ 13 Series and Pad Air/Mini, Pod & Other Devices (1.1 Meter, White)
 
-5. What is the average actual price vs the discounted price by category?
+6. What is the average actual price vs the discounted price by category?
 
 6. Which products have the highest number of reviews?
 
