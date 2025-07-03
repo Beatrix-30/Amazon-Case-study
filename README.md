@@ -81,8 +81,18 @@ A total number of 653 products had a discount of 50% and more. One product had a
 4.0, etc.)?
 
 9. What is the total potential revenue (actual_price × rating_count) by category?
+   - Car & Motorbike	with a total revenue of 4,472,000.00
+   - Computers & Accessories	with a total revenue of 4,413,430,325,567.74
+   - Electronics	with a total revenue of 68,171,050,267,725.00
+   - Health & Personal Care	with a total revenue of 6,959,700.00
+   - Home & Kitchen Appliances with a total revenue of	5,577,174,177,021.00
+   - Home Improvement	with a total revenue of 13,688,468.00
+   - Musical Instruments	with a total revenue of 239,448,108.00
+   - Office Products with a total revenue of	1,842,948,275.00
+   - Toys & Games	with a total revenue of 2,380,050.00
 
-10. What is the number of unique products per price range bucket (e.g., <₹200,
+
+11. What is the number of unique products per price range bucket (e.g., <₹200,
 
 ₹200–₹500, >₹500)?
 
