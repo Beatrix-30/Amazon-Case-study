@@ -48,15 +48,15 @@ The highest average discount percentage by product category is Home Improvement 
 
 4. What is the total number of reviews per category?
    Sum of rating count per product category:
-   - Car & Motorbike	1,118
-   - Computers & Accessories	6,335,177
-   - Electronics	13,938,131
-   - Health & Personal Care	3,663
-   - Home & Kitchen Appliances	2,991,069
-   - Home Improvement	8,566
-   - Musical Instruments	88,882
-   - Office Products	149,675
-   - Toys & Games	15,867
+   - Car & Motorbike:	1,118
+   - Computers & Accessories:	6,335,177
+   - Electronics:	13,938,131
+   - Health & Personal Care:	3,663
+   - Home & Kitchen Appliances:	2,991,069
+   - Home Improvement:	8,566
+   - Musical Instruments:	88,882
+   - Office Products:	149,675
+   - Toys & Games:	15,867
 
 5. Which products have the highest average ratings?
 Three products had the highest average ratings of 5 and they include: 
@@ -67,11 +67,16 @@ Three products had the highest average ratings of 5 and they include:
 6. What is the average actual price vs the discounted price by category?
 
 6. Which products have the highest number of reviews?
+   The products with the highest number of reviews are:
+   - Amazon Basics High-Speed HDMI Cable, 6 Feet (2-Pack),Black	with a total of 426,973
+   - Amazon Basics High-Speed HDMI Cable, 6 Feet - Supports Ethernet, 3D, 4K video,Black		with a total of426,973
+   - Amazon Basics Flexible Premium HDMI Cable (Black, 4K@60Hz, 18Gbps), 3-Foot		with a total of 426,973
 
-7. How many products have a discount of 50% or more?
+
+8. How many products have a discount of 50% or more?
 A total number of 653 products had a discount of 50% and more. One product had a discount of 94%, and 91%, 89% respectively. 53 products were rated 50%; 7 products with a discount of 90%; 
 14: 51%, 13 52%; 23 53%; 22 54%
-8. What is the distribution of product ratings (e.g., how many products are rated 3.0,
+9. What is the distribution of product ratings (e.g., how many products are rated 3.0,
 
 4.0, etc.)?
 
