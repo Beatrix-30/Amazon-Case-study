@@ -6,7 +6,7 @@ Welcome to the RetailTech Insights E-commerce Analytics Repository.
 - [Tools used](#tools-used)
 - [Business Questions](#business-questions)
 - [Result and Insights](#result-and-insights)
-- [Recommendation](#Recommendation)
+- [Recommendations](#Recommendations)
 - [Conclusion](#conclusion)
 
 ## Project Overview
