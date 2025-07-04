@@ -60,6 +60,5 @@ After downloading the raw data, several crucial steps were taken to clean and pr
 
 
 ## Visualization 
-!
-
+![Average Discount by Product Category](Average%20Discount%20by%20Product%20Category.jpg "Average Discount by Product Category Across Products")
 
