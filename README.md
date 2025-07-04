@@ -61,8 +61,6 @@ After downloading the raw data, several crucial steps were taken to clean and pr
 13. Which categories have products with the highest discounts?
 14. Identify the top 5 products in terms of combined rating and number of reviews.
 
-## 📈Analyzed Data
-[Amazon Project.xlsx](https://github.com/user-attachments/files/21061121/Amazon.Project.xlsx)
 
 ## 📊Visualization 
 
