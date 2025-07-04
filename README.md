@@ -58,6 +58,15 @@ After downloading the raw data, several crucial steps were taken to clean and pr
 13. Which categories have products with the highest discounts?
 14. Identify the top 5 products in terms of combined rating and number of reviews.
 
+## Visualization 
+![Average Discount by Product Category](https://github.com/user-attachments/assets/14c8da9b-0084-4084-a5b2-d12c05ca1d39)
+
+![Total Number of Products per Category ](https://github.com/user-attachments/assets/9370e617-a73e-4a9e-80b5-19de961d2676)
+
+![Rating Relationship to the Level of Discount ](https://github.com/user-attachments/assets/38319a9f-6995-4756-97d9-45d6f1c6bd60)
+
+![Top Discount Category](https://github.com/user-attachments/assets/ff86cd4f-fa43-4653-a12a-33e38be71549)
+
 
 ## 📈 Result and Insights
 
@@ -82,11 +91,3 @@ After downloading the raw data, several crucial steps were taken to clean and pr
 
 The Amazon sales data highlights a dynamic marketplace where discount strategies are applied across the rating spectrum, and certain product categories, particularly Electronics and Computers & Accessories, are dominant revenue and engagement drivers. The success of specific products like boAt Bassheads and Amazon Basics HDMI cables underscores the importance of product quality and effective branding. To further optimize performance, the repository should focus on refining discounting tactics, doubling down on high-performing categories and products, and actively addressing areas with lower engagement or data anomalies. By leveraging these insights, Amazon can further enhance its sales strategies and capitalize on market opportunities.
 
-## Visualization 
-![Average Discount by Product Category](https://github.com/user-attachments/assets/14c8da9b-0084-4084-a5b2-d12c05ca1d39)
-
-![Total Number of Products per Category ](https://github.com/user-attachments/assets/9370e617-a73e-4a9e-80b5-19de961d2676)
-
-![Rating Relationship to the Level of Discount ](https://github.com/user-attachments/assets/38319a9f-6995-4756-97d9-45d6f1c6bd60)
-
-![Top Discount Category](https://github.com/user-attachments/assets/ff86cd4f-fa43-4653-a12a-33e38be71549)
