@@ -4,7 +4,7 @@ Welcome to the RetailTech Insights E-commerce Analytics Repository.
 - [Project Overview](#project-overview)
 - [Data source](#data-source)
 - [Tools used](#tools-used)
-- [Business Questions (Task to do)](#business-questions-task-to-do)
+- [Business Questions](#business-questions)
 - [Result and Insights](#result-and-insights)
 - [Recommendation](#Recommendation)
 - [Conclusion](#conclusion)
@@ -41,7 +41,7 @@ After downloading the raw data, several crucial steps were taken to clean and pr
 - Price Range Creation: A new column, 'Price Range', was introduced to categorize products based on their price. This was achieved using the following IF function. This formula automatically assigns each product to a predefined price bracket, allowing for a more granular analysis of pricing tiers. 
 
 
-## 🧠 Business Questions (Task to do)
+## 🧠 Business Questions 
 
 1. What is the average discount percentage by product category?
 2. How many products are listed per category?
@@ -58,6 +58,29 @@ After downloading the raw data, several crucial steps were taken to clean and pr
 13. Which categories have products with the highest discounts?
 14. Identify the top 5 products in terms of combined rating and number of reviews.
 
+
+## 📈 Result and Insights
+
+ - **Discounting strategies are effective for both low and high-rated products:** We saw that steep discounts aren't just for unpopular items. The data reveals that high average discounts (over 80%) occur on products with lower ratings (around 2.8), suggesting a strategy to clear less popular inventory or incentivize purchases of underperforming items. Interestingly, the highest-rated products (rating of 5) also show significant average discounts (approaching 70%), which could be a tactic to reward loyal customers, drive sales volume on popular items, or maintain competitive pricing.
+ - **Electronics & Computers and Accessories Rule the Roost:** These categories are Amazon's heavy hitters, raking in tons of reviews and showing massive potential for revenue. Certain items, like "boAt Bassheads 100 Earphones" and "Amazon Basics HDMI Cables," are clear winners, frequently appearing among the highest-rated and most-reviewed products.
+ - **Review Gaps Exist:** While some categories are overflowing with reviews, others, like "Car & Motorbike" and "Health & Personal Care" have far fewer.
+ - **Price Range Distribution Highlights Mid-Tier Popularity:** The 5,001-10,000 price range has the highest number of unique products (117)[cite: 84, 95], suggesting that a significant portion of Amazon's product catalog falls within this mid-tier pricing.
+
+## Recommendations:
+ - **Optimize Discounting:** Let's fine-tune when and how we offer discounts, ensuring they drive profits whether products are top-rated or need a boost. Are the high discounts on low-rated products effectively clearing inventory without significantly eroding profit margins? This will help refine discounting strategies, ensuring they are optimized for profitability and inventory management across the product rating spectrum.
+ - **Focus on the Big Guns:** Given their high review volume and potential revenue; investing in Electronics and Computers & Accessories are key to major growth. 
+ - **Leverage Top-Performing Products for Cross-Promotion:** Let's actively promote and bundle those highly-rated, highly-reviewed products to attract even more customers.
+ - **Boost Review Generation:** We need to encourage more reviews for categories that are currently lagging to build trust and visibility.
+
+
+
+**5. Analyze the "Blank" Rating Category and Price Range Gaps:**
+    * [cite_start]**Action:** Investigate why a "blank" rating category exists and why it has the lowest average discount[cite: 2]. Additionally, explore why certain price ranges, such as those not listed or with very few products, have lower unique product counts. This could indicate missed market opportunities.
+    * **Impact:** Understanding these gaps can uncover data quality issues, identify unaddressed customer segments, or reveal opportunities for new product introductions.
+
+## Conclusion:
+
+The Amazon sales data highlights a dynamic marketplace where discount strategies are applied across the rating spectrum, and certain product categories, particularly Electronics and Computers & Accessories, are dominant revenue and engagement drivers. The success of specific products like boAt Bassheads and Amazon Basics HDMI cables underscores the importance of product quality and effective branding. To further optimize performance, the repository should focus on refining discounting tactics, doubling down on high-performing categories and products, and actively addressing areas with lower engagement or data anomalies. By leveraging these insights, Amazon can further enhance its sales strategies and capitalize on market opportunities.
 
 ## Visualization 
 ![Average Discount by Product Category](https://github.com/user-attachments/assets/14c8da9b-0084-4084-a5b2-d12c05ca1d39)
