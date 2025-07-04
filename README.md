@@ -32,7 +32,7 @@ By leveraging the rich tapestry of Amazon data, this repository aims to be a val
   - Calculated Columns
   - Charts (Bar, Column, Combo)
 
-## Data Transformation Process
+## 🧹 Data Transformation Process
 After downloading the raw data, several crucial steps were taken to clean and prepare it for analysis on Microsoft Excel. This ensured data integrity and facilitated more insightful findings:
 - Duplicate Removal: To maintain data uniqueness, duplicate entries were identified and removed. Duplicates were eliminated based product name, ensuring that each row represents a unique product.
 - Text Cleaning and Formatting: Within the Power Query Editor, text data underwent significant cleaning:
