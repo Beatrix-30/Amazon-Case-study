@@ -1,19 +1,21 @@
 # Amazon-Case-study
-Welcome to the RetailTech Insights E-commerce Analytics Repository. This project focuses on analyzing, and transforming product and customer review data meticulously scraped from Amazon product pages into actionable intelligence. Our core mission is to generate comprehensive insights that will empower businesses to:
+Welcome to the RetailTech Insights E-commerce Analytics Repository. 
+## Outline
+- [Project Overview](#project-overview)
+- [Data source](#data-source)
+- [Tools used](#tools-used)
+- [Business Questions (Task to do)](#business-questions-task-to-do)
+- [Result and Insights](#result-and-insights)
+- [Recommendation](#Recommendation)
+- [Conclusion](#conclusion)
+
+## Project Overview
+This project focuses on analyzing, and transforming product and customer review data meticulously scraped from Amazon product pages into actionable intelligence. Our core mission is to generate comprehensive insights that will empower businesses to:
  - Enhance Product Offerings: Identify product strengths and weaknesses, uncover emerging trends, and pinpoint opportunities for innovation and improvement based on direct customer feedback.
  - Inform Marketing Strategies: Optimize targeting, refine messaging, and develop more effective campaigns by understanding customer preferences, pain points, and purchase drivers.
  - Improve Customer Engagement: Foster stronger customer relationships through a deeper understanding of their needs, leading to enhanced satisfaction and loyalty.
 By leveraging the rich tapestry of Amazon data, this repository aims to be a valuable resource for data-driven decision-making in the dynamic e-commerce landscape.
 
-## Outline
-- [Project Overview](#project-overview)
-- [Data source](#data-source)
-- [Tools used](#tools-used)
-- [Business Questions from Case study](#business-questions-from-case-study)
-- [Result and Insights](#result-and-insights)
-- [Recommendation](#Recommendation)
-- [Conclusion](#conclusion)
-- 
 ## 📁 Data source
  - Amazon Case Study.xlsx [Download Here](https://canvas.instructure.com/files/302721266/download?download_frd=1)
 
@@ -24,7 +26,7 @@ By leveraging the rich tapestry of Amazon data, this repository aims to be a val
 
 ## 🧰 **Tools used**
 - Microsoft Excel [Download Here](https://microsoft-excel.en.softonic.com/)
-  - Power query editor 
+  - Power Query Editor 
   - Pivot Tables
   - Calculated Columns
   - Charts (Bar, Column, Combo)
