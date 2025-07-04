@@ -33,16 +33,13 @@ By leveraging the rich tapestry of Amazon data, this repository aims to be a val
 
 ## Data Transformation Process
 After downloading the raw data, several crucial steps were taken to clean and prepare it for analysis on Microsoft Excel. This ensured data integrity and facilitated more insightful findings:
-- Duplicate Removal: To maintain data uniqueness, duplicate entries were identified and removed. Conditional formatting was initially used to highlight cells containing duplicate values. Subsequently, duplicates were eliminated based product name, ensuring that each row represents a unique product.
+- Duplicate Removal: To maintain data uniqueness, duplicate entries were identified and removed. Duplicates were eliminated based product name, ensuring that each row represents a unique product.
 - Text Cleaning and Formatting: Within the Power Query Editor, text data underwent significant cleaning:
-- Excessive spacing was trimmed from words to ensure consistency and improve readability.
-- Spaces were then inserted into concatenated words to format the data appropriately (e.g., "Home&Kitchen" became "Home & Kitchen").
-- Product Recategorization: For enhanced analysis, products were reclassified into a new, simplified column called **'Product Category'**. This involved replacing the initial words of existing categories with more concise terms. For example, a category like "Computers & Accessories|Accessories&Peripherals|Cables&Accessories|Cables|USBCables" might be simplified to "Computers & Accessories" within the new 'Product Category' column. This can also be done by using a delimiter =LEFT(C2, FIND("|", C2) - 1)
-- Price Range Creation: A new column, 'Price Range', was introduced to categorize products based on their price. This was achieved using the following IF function:
-=IF(F2<1000,"<1,000",IF(F2<=5000,"1,000–5,000",IF(F2<=10000,"5,001–10,000",IF(F2<=20000,"10,001–20,000",IF(F2<=50000,"20,001–50,000",IF(F2<=100000,"50,001–100,000",">100,000"))))))
-This formula automatically assigns each product to a predefined price bracket, allowing for a more granular analysis of pricing tiers. 
+   - Excessive spacing was trimmed from words to ensure consistency and improve readability.
+   - Spaces were then inserted into concatenated words to format the data appropriately (e.g., "Home&Kitchen" became "Home & Kitchen").
+- Product Recategorization: For enhanced analysis, products were reclassified into a new, simplified column called **'Product Category'**  using a delimiter =LEFT(C2, FIND("|", C2) - 1). For example, a category like "Computers & Accessories|Accessories&Peripherals" might be simplified to "Computers & Accessories" within the new 'Product Category' column.  
+- Price Range Creation: A new column, 'Price Range', was introduced to categorize products based on their price. This was achieved using the following IF function. This formula automatically assigns each product to a predefined price bracket, allowing for a more granular analysis of pricing tiers. 
 
-After cleaning, a pivot table was inserted on a new worksheet to answer the questions 
 
 ## 🧠 Business Questions (Task to do)
 
@@ -60,6 +57,9 @@ After cleaning, a pivot table was inserted on a new worksheet to answer the ques
 12. How many products have fewer than 1,000 reviews?
 13. Which categories have products with the highest discounts?
 14. Identify the top 5 products in terms of combined rating and number of reviews.
+
+
+## Visualization 
 
 
 
