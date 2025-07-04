@@ -4,6 +4,7 @@ Welcome to the RetailTech Insights E-commerce Analytics Repository.
 - [Project Overview](#project-overview)
 - [Data source](#data-source)
 - [Tools used](#tools-used)
+- [Data Transformation Process](data-transformation-process)
 - [Business Questions](#business-questions)
 - [Visualization](visualization)
 - [Result and Insights](#result-and-insights)
@@ -17,7 +18,7 @@ This project focuses on analyzing, and transforming product and customer review 
  - Improve Customer Engagement: Foster stronger customer relationships through a deeper understanding of their needs, leading to enhanced satisfaction and loyalty.
 By leveraging the rich tapestry of Amazon data, this repository aims to be a valuable resource for data-driven decision-making in the dynamic e-commerce landscape.
 
-## 📁 Data source
+## 📁Data source
  - Amazon Case Study.xlsx [Download Here](https://canvas.instructure.com/files/302721266/download?download_frd=1)
 
    **Dataset Description**
@@ -25,7 +26,7 @@ By leveraging the rich tapestry of Amazon data, this repository aims to be a val
      - Product Details: Name, category, price, discount, and ratings
      - Customer Engagement: User reviews, titles, and content
 
-## 🧰 **Tools used**
+## 🧰**Tools used**
 - Microsoft Excel [Download Here](https://microsoft-excel.en.softonic.com/)
   - Power Query Editor 
   - Pivot Tables
@@ -42,7 +43,7 @@ After downloading the raw data, several crucial steps were taken to clean and pr
 - Price Range Creation: A new column, 'Price Range', was introduced to categorize products based on their price. This was achieved using the following IF function. This formula automatically assigns each product to a predefined price bracket, allowing for a more granular analysis of pricing tiers. 
 
 
-## 🧠 Business Questions 
+## 🧠Business Questions 
 
 1. What is the average discount percentage by product category?
 2. How many products are listed per category?
@@ -69,7 +70,7 @@ After downloading the raw data, several crucial steps were taken to clean and pr
 ![Top Discount Category](https://github.com/user-attachments/assets/ff86cd4f-fa43-4653-a12a-33e38be71549)
 
 
-## 📈 Result and Insights
+## 📈Result and Insights
 
  - **Discounting strategies are effective for both low and high-rated products:** We saw that steep discounts aren't just for unpopular items. The data reveals that high average discounts (over 80%) occur on products with lower ratings (around 2.8), suggesting a strategy to clear less popular inventory or incentivize purchases of underperforming items. Interestingly, the highest-rated products (rating of 5) also show significant average discounts (approaching 70%), which could be a tactic to reward loyal customers, drive sales volume on popular items, or maintain competitive pricing.
  - **Electronics & Computers and Accessories Rule the Roost:** These categories are Amazon's heavy hitters, raking in tons of reviews and showing massive potential for revenue. Certain items, like "boAt Bassheads 100 Earphones" and "Amazon Basics HDMI Cables," are clear winners, frequently appearing among the highest-rated and most-reviewed products.
