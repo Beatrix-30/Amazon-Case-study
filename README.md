@@ -71,6 +71,8 @@ After downloading the raw data, several crucial steps were taken to clean and pr
 
 ![Top Discount Category](https://github.com/user-attachments/assets/ff86cd4f-fa43-4653-a12a-33e38be71549)
 
+![Actual Price vs Discounted Price ](https://github.com/user-attachments/assets/6d9ffe20-09b9-4790-968d-77080ee54c99)
+
 
 ## 📈Result and Insights
 
