@@ -61,5 +61,6 @@ After downloading the raw data, several crucial steps were taken to clean and pr
 
 ## Visualization 
 
+![Average Discount by Product Category](https://github.com/user-attachments/assets/127385a2-0a6d-4317-b5ab-acaf21d15099)
 
 
