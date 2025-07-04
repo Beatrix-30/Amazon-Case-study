@@ -88,3 +88,5 @@ The Amazon sales data highlights a dynamic marketplace where discount strategies
 ![Total Number of Products per Category ](https://github.com/user-attachments/assets/9370e617-a73e-4a9e-80b5-19de961d2676)
 
 ![Rating Relationship to the Level of Discount ](https://github.com/user-attachments/assets/38319a9f-6995-4756-97d9-45d6f1c6bd60)
+
+![Top Discount Category](https://github.com/user-attachments/assets/ff86cd4f-fa43-4653-a12a-33e38be71549)
