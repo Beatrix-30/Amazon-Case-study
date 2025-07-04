@@ -60,5 +60,8 @@ After downloading the raw data, several crucial steps were taken to clean and pr
 
 
 ## Visualization 
+
+![Average-Discount-by-Product-Category](https://github.com/user-attachments/assets/4698cf61-617b-4d71-a477-a4a7e221e849)
+
 ![Average Discount by Product Category](Average%20Discount%20by%20Product%20Category.jpg "Average Discount by Product Category Across Products")
 
