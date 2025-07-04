@@ -34,6 +34,7 @@ By leveraging the rich tapestry of Amazon data, this repository aims to be a val
   - Charts (Bar, Column, Combo)
 
 ## 🧹Data Transformation Process
+
 After downloading the raw data, several crucial steps were taken to clean and prepare it for analysis on Microsoft Excel. This ensured data integrity and facilitated more insightful findings:
 - Duplicate Removal: To maintain data uniqueness, duplicate entries were identified and removed. Duplicates were eliminated based product name, ensuring that each row represents a unique product.
 - Text Cleaning and Formatting: Within the Power Query Editor, text data underwent significant cleaning:
@@ -61,6 +62,7 @@ After downloading the raw data, several crucial steps were taken to clean and pr
 14. Identify the top 5 products in terms of combined rating and number of reviews.
 
 ## 📊Visualization 
+
 ![Average Discount by Product Category](https://github.com/user-attachments/assets/14c8da9b-0084-4084-a5b2-d12c05ca1d39)
 
 ![Total Number of Products per Category ](https://github.com/user-attachments/assets/9370e617-a73e-4a9e-80b5-19de961d2676)
