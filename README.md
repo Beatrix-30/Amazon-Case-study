@@ -41,7 +41,7 @@ After downloading the raw data, several crucial steps were taken to clean and pr
 - Text Cleaning and Formatting: Within the Power Query Editor, text data underwent significant cleaning:
    - Excessive spacing was trimmed from words to ensure consistency and improve readability.
    - Spaces were then inserted into concatenated words to format the data appropriately (e.g., "Home&Kitchen" became "Home & Kitchen").
-- Product Recategorization: For enhanced analysis, products were reclassified into a new, simplified column called **'Product Category'**  using a delimiter =LEFT(C2, FIND("|", C2) - 1). For example, a category like "Computers & Accessories|Accessories&Peripherals" might be simplified to "Computers & Accessories" within the new 'Product Category' column.  
+- Product Recategorization: For enhanced analysis, products were reclassified into a new, simplified column called **'Product Category'**  using the replace values. A delimiter =LEFT(C2, FIND("|", C2) - 1) can be used. For example, a category like "Computers & Accessories|Accessories&Peripherals" might be simplified to "Computers & Accessories" within the new 'Product Category' column.  
 - Price Range Creation: A new column, 'Price Range', was introduced to categorize products based on their price. This was achieved using the following IF function. This formula automatically assigns each product to a predefined price bracket, allowing for a more granular analysis of pricing tiers. 
 
 
@@ -76,7 +76,8 @@ After downloading the raw data, several crucial steps were taken to clean and pr
 
 ![Top Discount Category](https://github.com/user-attachments/assets/ff86cd4f-fa43-4653-a12a-33e38be71549)
 
-![Actual Price vs Discounted Price ](https://github.com/user-attachments/assets/6d9ffe20-09b9-4790-968d-77080ee54c99)
+![Average Actual Price vs Discounted Price per Product Category](https://github.com/user-attachments/assets/81335de0-abd9-42f1-8533-d550431b2d5e)
+
 
 
 ## 📈Result and Insights
