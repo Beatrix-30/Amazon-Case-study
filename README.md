@@ -4,9 +4,10 @@ Welcome to the RetailTech Insights E-commerce Analytics Repository.
 - [Project Overview](#project-overview)
 - [Data source](#data-source)
 - [Tools used](#tools-used)
-- [Data Transformation Process](data-transformation-process)
+- [Data Transformation Process](#data-transformation-process)
 - [Business Questions](#business-questions)
-- [Visualization](visualization)
+- [Analyzed Data](#analyzed-data)
+- [Visualization](#visualization)
 - [Result and Insights](#result-and-insights)
 - [Recommendations](#Recommendations)
 - [Conclusion](#conclusion)
@@ -61,6 +62,9 @@ After downloading the raw data, several crucial steps were taken to clean and pr
 13. Which categories have products with the highest discounts?
 14. Identify the top 5 products in terms of combined rating and number of reviews.
 
+## 📊Analyzed Data
+
+[Amazon Project Analysis.xlsx](https://github.com/user-attachments/files/21084029/Amazon.Project.Analysis.xlsx)
 
 ## 📊Visualization 
 
